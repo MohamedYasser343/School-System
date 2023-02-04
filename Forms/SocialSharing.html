@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SocialSharing</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="https://snap.hopto.org/style.css"/>
+</head>
+<body class="form-v9">
+	<header class="headeer">
+		<div class="heaeder-right">
+		<a href="#default" class="logo">
+			<img src="images/Snap.png" alt="Snap logo" width="100" height="60">
+		</a>
+		<a class="active" href="#home">الصفحة الرئيسة</a>
+		<a href="#contact">تواصل معنا</a>
+		<a href="#about">لمزيد من المعلومات</a>
+	</header>
+	<div class="page-content">
+		<div class="form-v9-content" style="background: #3A579B;">
+			<form class="form-detail" action="#" method="post">
+				<h2>المشاركة الإجتماعية  </h2>
+				<div class="form-row-total">
+					<div class="form-row">
+						<input type="text" name="ParentName" id="ParentName" class="input-text" placeholder="اسم ولي الأمر" required>
+					</div>
+                    <div class="form-row">
+						<input type="text" name="InputType" id="InputType" class="input-text" placeholder="نوع المساهمة" required>
+					</div>
+				</div>
+                <div class="form-row-total">
+					<div class="form-row">
+						<input type="text" name="InputNumber" id="InputNumber" class="input-text" placeholder="عدد المساهمات" required>
+					</div>
+                    <div class="form-row">
+						<input type="text" name="price" id="Price" class="input-text" placeholder="المبلغ" required>
+					</div>
+				</div>
+
+				<div class="form-row-last">
+					<input type="button" name="register" class="register" value="تعديل">
+					<input type="submit" id="submit" name="register" class="register" value="إضافة">
+					<input type="button" name="register" class="register" value="مسح">
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer class="footer">
+		<p>Snap 0.22.0.1</p>
+	</footer>
+	<script>
+		const submit = document.getElementById("submit");
+		submit.addEventListener("click", validate);
+		function validate(e) {
+  			e.preventDefault();
+			const Field1 = document.getElementById("ParentName");
+			const Field2 = document.getElementById("InputType");
+			const Field3 = document.getElementById("InputNumber");
+			const Field4 = document.getElementById("Price");
+  			let valid = true;
+	  		  if (!Field1.value) {
+	  		alert("برجاء إدخال اسم  ولي الامر");
+  			}
+			  if (!Field2.value) {
+	  		alert("برجاء إدخال نوع المساهمة");
+  			}
+			  if (!Field3.value) {
+	  		alert("برجاء إدخال عدد المرات التي ساهم بها ولي الامر");
+  			}
+			  if (!Field4.value) {
+	  		alert("برجاء إدخال المبلغ");
+  			}
+		}
+	</script>
+</body>
+<!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
+
+
+<!--
+	#3A579B
+	#293F85
+	#4F69A4
+	#649BF5
+	#72B894
+	#B6A84D
+	#FFFFFF
+-->

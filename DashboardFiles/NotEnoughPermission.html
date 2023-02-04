@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/style.css">
+    <meta charset="UTF-8">
+    <title>You Don't Have Enough Permission.</title>
+    <style>
+        .final__button{
+            cursor: pointer;
+            margin: 0 auto;
+        }
+        input[type="checkbox"]:checked ~ .overlay {
+            pointer-events: auto;
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        .customModal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            z-index: 100;
+            -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+            width: 100%;
+            max-width: 640px;
+            pointer-events: none;
+            opacity: 0;
+            -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+            transition-delay: 0.1s;
+        }
+        input[type="checkbox"]:checked ~ .customModal {
+            pointer-events: auto;
+            opacity: 1;
+            -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+        }
+        body {
+            background-color: #0b4776;
+        }
+        .modal_content {
+            display: block;
+            padding: 30px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        lottie-player {
+            margin: 0 auto;
+        }
+        .error-modal {
+            margin-top: -50px;
+            margin-bottom: 50px;
+            font-size: 24px;
+            color: red;
+            text-align: center;
+        }
+        .center {
+            margin-top: 20px;
+            position: absolute;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <!-- Lottie Player Js -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+<input type="checkbox" checked="true" id="click" style="display: none;"/>
+<div class="customModal" id="modal">
+    <div class="modal_content">
+        <div class="item-logo center">
+            <img src="https://snap.hopto.org/Dashboard/img/logo2.png" alt="logo"/>
+        </div>
+        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_ed9D2z.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+        <p class="error-modal">ليس لديك صلاحية كافية.</p>
+    </div>
+</div>
+<div class="overlay"></div>
+</body>
+</html>

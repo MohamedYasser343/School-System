@@ -1,0 +1,806 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Snap | All Violations</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://snap.hopto.org/Dashboard/img/favicon.png">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/normalize.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/main.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/all.min.css">
+  <!-- Flaticon CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/fonts/flaticon.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/animate.min.css">
+  <!-- Data Table CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/jquery.dataTables.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/style.css">
+  <!-- Modernize js -->
+  <script src="https://snap.hopto.org/Dashboard/js/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body>
+<!-- Preloader Start Here -->
+<div id="preloader"></div>
+<!-- Preloader End Here -->
+<div id="wrapper" class="wrapper bg-ash">
+  <!-- Header Menu Area Start Here -->
+  <div class="navbar navbar-expand-md header-menu-one bg-light">
+    <div class="nav-bar-header-one">
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="https://snap.hopto.org/Dashboard/img/logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="toggle-button sidebar-toggle">
+        <button type="button" class="item-link">
+                        <span class="btn-icon-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+        </button>
+      </div>
+    </div>
+    <div class="d-md-none mobile-nav-bar">
+      <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+        <i class="far fa-arrow-alt-circle-down"></i>
+      </button>
+      <button type="button" class="navbar-toggler sidebar-toggle-mobile">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">
+      <ul class="navbar-nav">
+        <li class="navbar-item header-search-bar">
+          <div class="input-group stylish-input-group">
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="flaticon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+            <input type="text" class="form-control" placeholder="Find Something . . .">
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="navbar-item dropdown header-admin">
+          <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+             aria-expanded="false">
+            <div class="admin-title">
+              <h5 class="item-title">Stevne Zone</h5>
+              <span>Admin</span>
+            </div>
+            <div class="admin-img">
+              <img src="https://snap.hopto.org/Dashboard/img/figure/admin.jpg" alt="Admin">
+            </div>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="item-header">
+              <h6 class="item-title">Steven Zone</h6>
+            </div>
+            <div class="item-content">
+              <ul class="settings-list">
+                <li><a href="#"><i class="flaticon-user"></i>My Profile</a></li>
+                <li><a href="#"><i class="flaticon-list"></i>Task</a></li>
+                <li><a href="#"><i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i>Message</a></li>
+                <li><a href="#"><i class="flaticon-gear-loading"></i>Account Settings</a></li>
+                <li><a href="login.html"><i class="flaticon-turn-off"></i>Log Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="navbar-item dropdown header-message">
+          <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+             aria-expanded="false">
+            <i class="far fa-envelope"></i>
+            <div class="item-title d-md-none text-16 mg-r-10">Message</div>
+            <span>5</span>
+          </a>
+
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="item-header">
+              <h6 class="item-title">05 Message</h6>
+            </div>
+            <div class="item-content">
+              <div class="media">
+                <div class="item-img bg-skyblue author-online">
+                  <img src="https://snap.hopto.org/Dashboard/img/figure/student11.png" alt="img">
+                </div>
+                <div class="media-body space-sm">
+                  <div class="item-title">
+                    <a href="#">
+                      <span class="item-name">Maria Zaman</span>
+                      <span class="item-time">18:30</span>
+                    </a>
+                  </div>
+                  <p>What is the reason of buy this item.
+                    Is it usefull for me.....</p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="item-img bg-yellow author-online">
+                  <img src="https://snap.hopto.org/Dashboard/img/figure/student12.png" alt="img">
+                </div>
+                <div class="media-body space-sm">
+                  <div class="item-title">
+                    <a href="#">
+                      <span class="item-name">Benny Roy</span>
+                      <span class="item-time">10:35</span>
+                    </a>
+                  </div>
+                  <p>What is the reason of buy this item.
+                    Is it usefull for me.....</p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="item-img bg-pink">
+                  <img src="https://snap.hopto.org/Dashboard/img/figure/student13.png" alt="img">
+                </div>
+                <div class="media-body space-sm">
+                  <div class="item-title">
+                    <a href="#">
+                      <span class="item-name">Steven</span>
+                      <span class="item-time">02:35</span>
+                    </a>
+                  </div>
+                  <p>What is the reason of buy this item.
+                    Is it usefull for me.....</p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="item-img bg-violet-blue">
+                  <img src="https://snap.hopto.org/Dashboard/img/figure/student11.png" alt="img">
+                </div>
+                <div class="media-body space-sm">
+                  <div class="item-title">
+                    <a href="#">
+                      <span class="item-name">Joshep Joe</span>
+                      <span class="item-time">12:35</span>
+                    </a>
+                  </div>
+                  <p>What is the reason of buy this item.
+                    Is it usefull for me.....</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="navbar-item dropdown header-notification">
+          <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+             aria-expanded="false">
+            <i class="far fa-bell"></i>
+            <div class="item-title d-md-none text-16 mg-r-10">Notification</div>
+            <span>8</span>
+          </a>
+
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="item-header">
+              <h6 class="item-title">03 Notifiacations</h6>
+            </div>
+            <div class="item-content">
+              <div class="media">
+                <div class="item-icon bg-skyblue">
+                  <i class="fas fa-check"></i>
+                </div>
+                <div class="media-body space-sm">
+                  <div class="post-title">Complete Today Task</div>
+                  <span>1 Mins ago</span>
+                </div>
+              </div>
+              <div class="media">
+                <div class="item-icon bg-orange">
+                  <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="media-body space-sm">
+                  <div class="post-title">Director Metting</div>
+                  <span>20 Mins ago</span>
+                </div>
+              </div>
+              <div class="media">
+                <div class="item-icon bg-violet-blue">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="media-body space-sm">
+                  <div class="post-title">Update Password</div>
+                  <span>45 Mins ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="navbar-item dropdown header-language">
+          <a class="navbar-nav-link dropdown-toggle" href="#" role="button"
+             data-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe-americas"></i>EN</a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Spanish</a>
+            <a class="dropdown-item" href="#">Franchis</a>
+            <a class="dropdown-item" href="#">Chiness</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Header Menu Area End Here -->
+  <!-- Page Area Start Here -->
+  <div class="dashboard-page-one">
+    <!-- Sidebar Area Start Here -->
+    <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
+      <div class="mobile-sidebar-header d-md-none">
+        <div class="header-logo">
+          <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
+        </div>
+      </div>
+      <div class="sidebar-menu-content">
+        <ul class="nav nav-sidebar-menu sidebar-toggle-view">
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-school "></i><span> المدرسة </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-details.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  بيانات المدرسة  <span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/details.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة المواد الدراسية <span style="color: red; margin-right: 5px;">"غير متوفر"</span> </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="flaticon-dashboard"></i><span>لوحة التحكم</span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoPrincipalDashboard" class="nav-link"><i class="fas fa-angle-right"></i>المدير العام<span style="color: green; margin-right: 10px;">"متاح "</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/index3.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>الطلبة<span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/index4.html" class="nav-link"><i class="fas fa-angle-right"></i>أولياء الأمور<span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/index5.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>المعلمين<span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/index6.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>المشرفين<span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>شئون الطلاب</span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-student.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  جميع الطلاب<span style="color: red; margin-right: 8px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-student2.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الصف الأول الثانوي<span style="color: red; margin-right: 8px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-student3.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الصف الثاني الثانوي <span style="color: red; margin-right: 8px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-student4.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الصف الثالث الثانوي  <span style="color: red; margin-right: 8px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/student-details.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>بياناتي الشخصية<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/admit-form.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة طالب جديد<span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/admit-STEM-form.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة بيانات STEM <span style="color: red; margin-right: 5px;">"غير متوفر"</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-user-graduate "></i><span>شئون الخريجين</span></a>
+            <ul class="nav sub-group-menu">
+
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-university.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الجامعات <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-university.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل الجامعات <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-schoolarships.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  المنح  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-schoolarships.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل المنح <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-utensils "></i><span>مطعم</span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-statistics.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الإحصاءات  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-poll.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة استفتاء <span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/breakfast-statistics.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل  فطار <span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/lunch-statistics.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>تسجيل  غداء<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/dinner-statistics.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>تسجيل  عشاء<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-calendar-alt "></i><span>حدث مميز</span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/statistics.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الأحداث  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/poll.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة حدث<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-trophy"></i><span>المسابقات   </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-competitions.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  المسابقات   <span style="color: red; margin-right: 10px;">"غير متوفر"</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-competition.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة مسابقة جديدة<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-student.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل طلاب <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-user-graduate "></i><span>المنح</span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/schoolarships.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  المنح  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-schoolarships.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة منحة <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-schoolarship.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل الطلاب <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-bus-alt"></i><span>الرحلات   </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-trips.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الرحلات  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-trip.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة رحلات<span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-trip.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل الطلاب <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-university"></i><span>الجامعات   </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/university.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الجامعة  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-university.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة جامعة <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/rec-university.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل الطلاب  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="flaticon-multiple-users-silhouette"></i><span>شئون العاملين  </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoTeacherCardView" class="nav-link"><i class="fas fa-angle-right"></i>
+                  كل المعلمين<span style="color: green; margin-right: 10px;">"متاح "</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoAddTeacher" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة معلم <span style="color: green; margin-right: 10px;">"متاح "</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="add-teacher.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  بياناتي <span style="color: red; margin-right: 10px;">"غير متوفر"</span>></a>
+
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-calendar-check"></i><span>أجازات المعلم </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoAllVacations" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الأجازات  <span style="color: green; margin-right: 10px;">"متاح "</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoAddVacation" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة نوع أجازة <span style="color: green; margin-right: 10px;">"متاح "</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoRecordTeacherVacation" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل أجازة <span style="color: green; margin-right: 10px;">"متاح "</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-user-alt-slash"></i><span>مخالفات معلم    </span></a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoAllViolations" class="nav-link"><i class="fas fa-angle-right"></i>
+                  المخالفات  <span style="color: green; margin-right: 10px;">"متاح "</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoAddViolation" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة مخالفة <span style="color: green; margin-right: 10px;">"متاح "</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/GoRecordTeacherViolation" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل مخالفة  <span style="color: green; margin-right: 10px;">"متاح "</span> </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="flaticon-couple"></i><span>مشرفين     </span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-supervisor.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  كل المشرفين  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-supervisor.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة  مشرف  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-supervisor.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  بياناتي   <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="flaticon-list"></i><span>مخازن     </span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-storageroom.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  مخزن  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/custody.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>العهدة   <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-category.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  اضافة صنف   <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-custody.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل عهدة    <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-computers.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الحاسبات الألية <span style="color: red; margin-right: 10px;">"غير متوفر"</span>      </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/give-laptop.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسليم لاب توب    <span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/take-laptop.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  استلام لاب توب    <span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/repair-laptop.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  صيانة لاب توب    <span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-users"></i><span>أولياء الأمور</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-parents.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  جميع أولياء الأمور<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/parents-details.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>تفاصيل أولياء الأمور<span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-parents.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة ولي الأمر<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-sharing.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  المشاركة الإجتماعية <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-sharing.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  اشتراك مجتمعي <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-home "></i><span>الفندق</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-rooms.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  جميع الغرف<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-room.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة غرفة جديد<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-student-room.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسكين الطلاب<span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i class="flaticon-bus-side-view"></i><span>الاتوبيسات</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-buses.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  جميع الاتوبيسات <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-bus.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة اتوبيس جديد<span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-student-bus.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  حجز الطالب  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-chalkboard"></i><span>الفصول</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-class.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  جميع الفصول<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-class.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة فصل جديد<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-student-class.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  اعداد قوائم الفصول<span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i><span>كابستون</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-capstone.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  جروبات الكاب<span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/class.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة جروب كابستون<span style="color: red; margin-right: 3px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-ban"></i><span>المخالفات</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/all-violation.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  عدد المخالفات <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-violation.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إضافة مخالفة جديدة<span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/record-violation.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  تسجيل مخالفة جديدة  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i><span>إذونات</span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/permission-hotel.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إذن سكن <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/permission-exit.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  إذن خروج من المدرسة <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item sidebar-nav-item">
+            <a href="#" class="nav-link"><i
+                    class="fas fa-question-circle"></i><span>عن البرنامج   </span> </a>
+            <ul class="nav sub-group-menu">
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/devolpers.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  مصممي البرنامج <span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/tecinical-support.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>الدعم الفني  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/versions.html" class="nav-link"><i class="fas fa-angle-right"></i>
+                  الإصدارات  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/notifications.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>الإشعارات  <span style="color: red; margin-right: 10px;">"غير متوفر"</span>  </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/add-notifications.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>إضافة إشعار<span style="color: red; margin-right: 10px;">"غير متوفر"</span>   </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://snap.hopto.org/Dashboard/table-notifications.html" class="nav-link"><i
+                        class="fas fa-angle-right"></i>جدولة إشعار  <span style="color: red; margin-right: 10px;">"غير متوفر"</span> </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Sidebar Area End Here -->
+    <div class="dashboard-content-one">
+      <!-- Breadcubs Area Start Here -->
+      <div class="breadcrumbs-area">
+        <h3>المنح</h3>
+        <ul>
+          <li>
+            <a href="index.html">الصفحة ألرئيسية</a>
+          </li>
+          <li>جميع المنح</li>
+        </ul>
+      </div>
+      <!-- Breadcubs Area End Here -->
+      <!-- Teacher Table Area Start Here -->
+      <div class="card height-auto">
+        <div class="card-body">
+          <div class="heading-layout1">
+            <div class="item-title">
+              <h3>بيانات جميع المنح</h3>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle" href="#" role="button"
+                 data-toggle="dropdown" aria-expanded="false">...</a>
+
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red" onclick="DeleteRequest(غياب)"></i>Close</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+              </div>
+            </div>
+          </div>
+          <div class="table-responsive" id="dvContents">
+            <table cellspacing="0" cellpadding="0" class="table display text-nowrap">
+              <thead>
+              <tr>
+                <th>أسم الطالب</th>
+                <th>أسم الجامعة</th>
+                <th>نوع المنحة</th>
+              </tr>
+              </thead>
+              <tbody id="all">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Teacher Table Area End Here -->
+      <footer class="footer-wrap-layout1">
+        <div class="copyright">© Copyrights <a href="#">snap</a> 2022. All rights reserved. Designed by <a href="#">Snap Team </a></div>
+      </footer>
+    </div>
+  </div>
+  <!-- Page Area End Here -->
+</div>
+
+<script>
+  let StudentNames = "{{.StudentNames}}"
+  var StudentOptions = StudentNames.replace("[", "").replace("]", "").split(", ");
+  let UniNames = "{{.UniNames}}"
+  var UniOptions = UniNames.replace("[", "").replace("]", "").split(", ");
+  let ScholarShipKinds = "{{.ScholarShipKinds}}"
+  var ScholarShipKindOptions = ScholarShipKinds.replace("[", "").replace("]", "").split(", ");
+  const table = document.getElementById("all");
+  for(var i = 0; i < StudentOptions.length; i++) {
+    table.innerHTML = table.innerHTML + `<tr>
+<td>` + StudentOptions[i] +`</td>
+<td>` + UniOptions[i] +`</td>
+<td>` + ScholarShipKindOptions[i] +`</td>
+</tr>`
+  }
+</script>
+
+<!-- jquery-->
+<script src="https://snap.hopto.org/Dashboard/js/jquery-3.3.1.min.js"></script>
+<!-- Plugins js -->
+<script src="https://snap.hopto.org/Dashboard/js/plugins.js"></script>
+<!-- Popper js -->
+<script src="https://snap.hopto.org/Dashboard/js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="https://snap.hopto.org/Dashboard/js/bootstrap.min.js"></script>
+<!-- Scroll Up Js -->
+<script src="https://snap.hopto.org/Dashboard/js/jquery.scrollUp.min.js"></script>
+<!-- Data Table Js -->
+<script src="https://snap.hopto.org/Dashboard/js/jquery.dataTables.min.js"></script>
+<!-- Custom Js -->
+<script src="https://snap.hopto.org/Dashboard/js/main.js"></script>
+
+</body>
+
+</html>

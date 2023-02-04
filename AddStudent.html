@@ -1,0 +1,496 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Snap | إضافة طالب</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://snap.hopto.org/Dashboard/img/favicon.png">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/normalize.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/fonts/flaticon.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/animate.min.css">
+    <!-- Select 2 CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/select2.min.css">
+    <!-- Date Picker CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/css/datepicker.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://snap.hopto.org/Dashboard/style.css">
+    <!-- Modernize js -->
+    <script src="https://snap.hopto.org/Dashboard/js/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body id="body">
+<!-- Preloader Start Here -->
+<div id="preloader"></div>
+<!-- Preloader End Here -->
+<div id="wrapper" class="wrapper bg-ash">
+    <!-- Header Menu Area Start Here -->
+    <div class="navbar navbar-expand-md header-menu-one bg-light">
+        <div class="nav-bar-header-one">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="https://snap.hopto.org/Dashboard/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="toggle-button sidebar-toggle">
+                <button type="button" class="item-link">
+                        <span class="btn-icon-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                </button>
+            </div>
+        </div>
+        <div class="d-md-none mobile-nav-bar">
+            <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+                <i class="far fa-arrow-alt-circle-down"></i>
+            </button>
+            <button type="button" class="navbar-toggler sidebar-toggle-mobile">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">
+            <ul class="navbar-nav">
+                <li class="navbar-item header-search-bar">
+                    <div class="input-group stylish-input-group">
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="flaticon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+                        <input type="text" class="form-control" placeholder="البحث . . .">
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="navbar-item dropdown header-admin">
+                    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        <div class="admin-title">
+                            <h5 class="item-title">Stevne Zone</h5>
+                            <span>Admin</span>
+                        </div>
+                        <div class="admin-img">
+                            <img src="https://snap.hopto.org/Dashboard/img/figure/admin.jpg" alt="Admin">
+                        </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="item-header">
+                            <h6 class="item-title">Steven Zone</h6>
+                        </div>
+                        <div class="item-content">
+                            <ul class="settings-list">
+                                <li><a href="#"><i class="flaticon-user"></i>My Profile</a></li>
+                                <li><a href="#"><i class="flaticon-list"></i>Task</a></li>
+                                <li><a href="#"><i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i>Message</a></li>
+                                <li><a href="#"><i class="flaticon-gear-loading"></i>Account Settings</a></li>
+                                <li><a href="login.html"><i class="flaticon-turn-off"></i>Log Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown header-message">
+                    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        <i class="far fa-envelope"></i>
+                        <div class="item-title d-md-none text-16 mg-r-10">Message</div>
+                        <span>5</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="item-header">
+                            <h6 class="item-title">05 Message</h6>
+                        </div>
+                        <div class="item-content">
+                            <div class="media">
+                                <div class="item-img bg-skyblue author-online">
+                                    <img src="https://snap.hopto.org/Dashboard/img/figure/student11.png" alt="img">
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="item-title">
+                                        <a href="#">
+                                            <span class="item-name">Maria Zaman</span>
+                                            <span class="item-time">18:30</span>
+                                        </a>
+                                    </div>
+                                    <p>What is the reason of buy this item.
+                                        Is it usefull for me.....</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="item-img bg-yellow author-online">
+                                    <img src="https://snap.hopto.org/Dashboard/img/figure/student12.png" alt="img">
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="item-title">
+                                        <a href="#">
+                                            <span class="item-name">Benny Roy</span>
+                                            <span class="item-time">10:35</span>
+                                        </a>
+                                    </div>
+                                    <p>What is the reason of buy this item.
+                                        Is it usefull for me.....</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="item-img bg-pink">
+                                    <img src="https://snap.hopto.org/Dashboard/img/figure/student13.png" alt="img">
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="item-title">
+                                        <a href="#">
+                                            <span class="item-name">Steven</span>
+                                            <span class="item-time">02:35</span>
+                                        </a>
+                                    </div>
+                                    <p>What is the reason of buy this item.
+                                        Is it usefull for me.....</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="item-img bg-violet-blue">
+                                    <img src="https://snap.hopto.org/Dashboard/img/figure/student11.png" alt="img">
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="item-title">
+                                        <a href="#">
+                                            <span class="item-name">Joshep Joe</span>
+                                            <span class="item-time">12:35</span>
+                                        </a>
+                                    </div>
+                                    <p>What is the reason of buy this item.
+                                        Is it usefull for me.....</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown header-notification">
+                    <a class="navbar-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
+                        <i class="far fa-bell"></i>
+                        <div class="item-title d-md-none text-16 mg-r-10">Notification</div>
+                        <span>8</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="item-header">
+                            <h6 class="item-title">03 Notifiacations</h6>
+                        </div>
+                        <div class="item-content">
+                            <div class="media">
+                                <div class="item-icon bg-skyblue">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="post-title">Complete Today Task</div>
+                                    <span>1 Mins ago</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="item-icon bg-orange">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="post-title">Director Metting</div>
+                                    <span>20 Mins ago</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="item-icon bg-violet-blue">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="media-body space-sm">
+                                    <div class="post-title">Update Password</div>
+                                    <span>45 Mins ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item dropdown header-language">
+                    <a class="navbar-nav-link dropdown-toggle" href="#" role="button"
+                       data-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe-americas"></i>EN</a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Spanish</a>
+                        <a class="dropdown-item" href="#">Franchis</a>
+                        <a class="dropdown-item" href="#">Chiness</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Header Menu Area End Here -->
+    <!-- Page Area Start Here -->
+    <div class="dashboard-page-one">
+        <!-- Sidebar Area Start Here -->
+        {{.Sidebar}}
+        <!-- Sidebar Area End Here -->
+        <div class="dashboard-content-one">
+            <!-- Breadcubs Area Start Here -->
+            <div class="breadcrumbs-area">
+                <h3>الطلاب</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">الصفحة الرئيسية</a>
+                    </li>
+                    <li>فورم إضافة طالب</li>
+                </ul>
+            </div>
+            <!-- Breadcubs Area End Here -->
+            <!-- Admit Form Area Start Here -->
+            <div class="card height-auto">
+                <div class="card-body">
+                    <div class="heading-layout1">
+                        <div class="item-title">
+                            <h3>إضافة طالب جديد</h3>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                               aria-expanded="false">...</a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-times text-orange-red"></i>Close</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="new-added-form" method="post" enctype="multipart/form-data" onsubmit="ValidateForm();">
+                        <div class="row">
+                            <div id="NameDiv" class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>اسم الطالب</label>
+                                <input name="Name" id="Name" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div id="NameEDiv" class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>اسم الطالب بالإنجليزية</label>
+                                <input name="NameE" id="NameE" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>الصف</label>
+                                <select name="Grade" id="Grade" class="select2">
+                                    <option value="G10">الصف الأول</option>
+                                    <option value="G11">الصف الثاني</option>
+                                    <option value="G12">الصف الثالث</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>كود الطالب</label>
+                                <input name="Code" id="Code" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>الشعبة</label>
+                                <select name="Specialization" id="Specialization" class="select2">
+                                    <option value="None">...</option>
+                                    <option value="Science">علمي علوم</option>
+                                    <option value="Mathematic">علمي رياضة</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>اللغة الثانية</label>
+                                <select name="SecondLang" id="SecondLang" class="select2">
+                                    <option value="German">ألماني</option>
+                                    <option value="French">فرنساوي</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>الديانة </label>
+                                <select name="Religion" id="Religion" class="select2">
+                                    <option value="Christian">مسيحي</option>
+                                    <option value="Muslem">مسلم</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>رقم جروب الكابستون</label>
+                                <input name="PortfolioNo" id="PortfolioNo" type="number" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>الرقم القومي الخاص بالطالب</label>
+                                <input name="NationalId" id="NationalId" type="number" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>الإيميل</label>
+                                <input name="Email" id="Email" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>الإيميل الرسمي</label>
+                                <input name="OfficialEmail" id="OfficialEmail" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label> الفصل </label>
+                                <select name="Class" id="Class" class="select2">
+                                </select>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>أسم المستخدم</label>
+                                <input name="UserName" id="UserName" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label>كلمة السر</label>
+                                <input name="Password" id="Password" type="text" placeholder="" class="form-control">
+                            </div>
+                            <div class="col-lg-6 col-12 form-group mg-t-30">
+                                <label class="text-dark-medium">رفع صورة الطالب</label>
+                                <input id="myfile" name="myfile" type="file" class="form-control-file">
+                            </div>
+                            <div class="col-12 form-group mg-t-8">
+                                <button type="submit" id="submit" name="register" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">حفظ</button>
+                                <button type="reset" class="btn-fill-lg bg-blue-dark btn-hover-yellow">إعادة تعين</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Admit Form Area End Here -->
+            <footer class="footer-wrap-layout1">
+                <div class="copyright">© Copyrights <a href="#">snap</a> 2022. All rights reserved. Designed by <a
+                        href="#">Snap Team </a></div>
+            </footer>
+        </div>
+    </div>
+    <!-- Page Area End Here -->
+</div>
+<!-- jquery-->
+<script src="https://snap.hopto.org/Dashboard/js/jquery-3.3.1.min.js"></script>
+<!-- Plugins js -->
+<script src="https://snap.hopto.org/Dashboard/js/plugins.js"></script>
+<!-- Popper js -->
+<script src="https://snap.hopto.org/Dashboard/js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="https://snap.hopto.org/Dashboard/js/bootstrap.min.js"></script>
+<!-- Select 2 Js -->
+<script src="https://snap.hopto.org/Dashboard/js/select2.min.js"></script>
+<!-- Date Picker Js -->
+<script src="https://snap.hopto.org/Dashboard/js/datepicker.min.js"></script>
+<!-- Scroll Up Js -->
+<script src="https://snap.hopto.org/Dashboard/js/jquery.scrollUp.min.js"></script>
+<!-- Custom Js -->
+<script src="https://snap.hopto.org/Dashboard/js/main.js"></script>
+<!-- Lottie Player Js -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<style>
+    .final__button{
+        cursor: pointer;
+        margin: 0 auto;
+    }
+    input[type="checkbox"]:checked ~ .overlay {
+        pointer-events: auto;
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .customModal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 100;
+        -webkit-transform: translate(-50%, -50%) scale(0.5);
+        transform: translate(-50%, -50%) scale(0.5);
+        width: 100%;
+        max-width: 640px;
+        pointer-events: none;
+        opacity: 0;
+        -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+        transition-delay: 0.1s;
+    }
+    input[type="checkbox"]:checked ~ .customModal {
+        pointer-events: auto;
+        opacity: 1;
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    .modal_content {
+        display: block;
+        padding: 30px;
+        background-color: #0b4776;
+        border-radius: 8px;
+    }
+    lottie-player {
+        margin: 0 auto;
+    }
+    .error-modal {
+        font-size: 24px;
+        color: red;
+        text-align: center;
+    }
+    .error-message {
+        font-size: 14px;
+        color: red;
+    }
+    .button-theme {
+        margin: 0 auto;
+    }
+</style>
+<!-- Form Validation -->
+<script>
+    const name = document.getElementById("NameDiv")
+    const nationalId = document.getElementById("NationalIdDiv")
+    const nameE = document.getElementById("NameEDiv")
+    function ValidateForm() {
+                const body = document.getElementById("body")
+                const validateName = document.getElementById("Name")
+                const validateNationalId = document.getElementById("NationalId")
+                const NameE = document.getElementById("NameE")
+        if (!validateName.value) {
+            name.innerHTML = name.innerHTML + `
+<p class="error-message">برجاء ادخال أسم الطالب.</p>`
+        } else {
+            name.innerHTML = name.innerHTML
+        }
+        if (!validateNationalId.value) {
+            nationalId.innerHTML = nationalId.innerHTML + `
+<p class="error-message">برجاء ادخال الرقم القومي لللطالب.</p>`
+        } else {
+            nationalId.innerHTML = nationalId.innerHTML
+        }
+        if (validateNationalId.value.length != 14 && validateNationalId.value) {
+            nationalId.innerHTML = nationalId.innerHTML + `
+<p class="error-message">برجاء ادخال الرقم القومي مكون من 14 رقم.</p>`
+        } else {
+            nationalId.innerHTML = nationalId.innerHTML
+        }
+        if (!NameE.value) {
+            nameE.innerHTML = nameE.innerHTML + `
+<p class="error-message">برجاء ادخال أسم الطالب بالإنجليزية.</p>`
+        } else {
+            nameE.innerHTML = nameE.innerHTML
+        }
+    }
+</script>
+<!--Populate Class Select-->
+<script>
+    let SelectClass = document.getElementById("Class");
+    let ClassList = "{{.ClassList}}";
+    let ClassOptions = ClassList.replace("[", "").replace("]", "").split(", ").sort();
+    var sidebar = "{{.Sidebar}}";
+    console.log(sidebar);
+    for(var i = 0; i < ClassOptions.length; i++) {
+        var ClassOpt = ClassOptions[i];
+        var ClassEl = document.createElement("option");
+        ClassEl.textContent = ClassOpt;
+        ClassEl.value = ClassOpt;
+        SelectClass.appendChild(ClassEl);
+    }
+</script>
+<!-- End-->
+</body>
+
+</html>
